@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EuroTour - Hospedagem</title>
+    <title>EuroTour - Trabalhe conosco</title>
 </head>
 <body>
     <header>
@@ -27,19 +27,19 @@
     </header>
 
     <main>
-        <h1>Hospedagem</h1>
-        <h2>Hoteis na Europa com os <strong>melhor preço garantido</strong>.</h2>
-        <p>
-            Hospede-se na Europa sem pesar no bolso. Confira nossos preços incríveis.
-        </p>
-        <section>
-            <h2>Rio de Janeiro</h2>
-            <img src="../img/hoteis/hotel_rio_de_janeiro.jpeg"/> 
-        </section>
-        <section>
-            <h2>Chapada Diamantina</h2>
-            <img src="../img/hoteis/hotel_chapada_diamantina.jpg"/>
-        </section>
+        <h1>Trabalhe conosco</h1>
+        <form action="/cadastro" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <label for="email_cadastro">E-mail</label>
+            <input type="email" id="email_cadastro" name="email_cadastro" placeholder="exemplo@exemplo.com" required>
+            <br>
+            <label for="senha_cadastro">Senha:</label>
+            <input type="password" id="senha_cadastro" name="senha_cadastro" required>
+            <br>
+            <input type="submit" value="Cadastrar">
+        </form>
     </main>
     
     <footer>
