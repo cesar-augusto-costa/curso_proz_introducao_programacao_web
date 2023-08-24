@@ -5,5 +5,5 @@ Com a página sobre o Marco Zero feita, é necessário de uma outra página e de
  1. crie um link que irá direcionar para essa nova página; 
  2. adicione imagens sobre os lugares. 
 
-[Link do Site](https://cesar-augusto-costa.github.io/curso_proz_introducao_programacao_web/04_projeto_recife/index.html)
+[Link do Site](https://cesar-augusto-costa.github.io/curso_proz_introducao_programacao_web/04_projeto_recife_antigo/index.html)
 
