@@ -1,0 +1,89 @@
+/* tag */
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/* hierarquia */
+section div p {
+    font-family: serif;
+    color: blue;
+}
+
+/* mais de um seletor */
+p,
+span,
+a {
+    font-family: monospace;
+    color: maroon;
+}
+
+/* .classe */
+.azul {
+    color: rgb(55, 0, 252);
+}
+
+.verde-bg {
+    background: rgb(43, 235, 4);
+}
+
+.elegante {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+}
+
+/* #id */
+span#exemploId {
+    background-color: cyan;
+}
+
+/* seleção através de um atributo */
+a {
+    color: blue;
+}
+
+/* Links internos, começando com "#" */
+a[href^="#"] {
+    background-color: gold;
+}
+
+/* Links com "example" em qualquer lugar da URL */
+a[href*="example"] {
+    background-color: silver;
+}
+
+/* Links com "insensitive" em qualquer lugar da URL,
+     independentemente da capitalização */
+a[href*="insensitive" i] {
+    color: cyan;
+}
+
+/* Links com final ".org" */
+a[href$=".org"] {
+    color: red;
+}
+
+span {
+    background-color: pink;
+}
+
+div#shadow1 {
+    font-size: 20px;
+    text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgb(255,99,71);
+    border: 3px solid green;
+}
+
+div#shadow2 {
+    width: 50%;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #ff6347;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
