@@ -40,11 +40,14 @@ header {
   align-items: center;
 }
 
+/* Aplicado somente ao FOOTER pois o HEADER ja esta estilizado */
 ul {
   display: flex;
   justify-content: flex-end;
 }
 
+/* CSS priorisa a estilização mais específica: id / cs / atributo / tag */
 li, .rede-social {
   margin-left: 48px;
 }
+
