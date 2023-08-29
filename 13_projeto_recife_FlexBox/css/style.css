@@ -19,6 +19,9 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header span {
@@ -28,10 +31,11 @@ header span {
 
 header ul {
     margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 header li {
-    display: inline;
     margin: 0 10px;
 }
 
@@ -84,30 +88,10 @@ footer {
 
 footer ul {
     margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer li {
-    display: inline;
     margin: 0 10px;
-}
-
-/* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
-    header ul {
-        display: block;
-        margin-top: 10px;
-    }
-
-    header li {
-        margin: 10px 0;
-    }
-
-    footer ul {
-        display: block;
-        margin-top: 10px;
-    }
-
-    footer li {
-        margin: 10px 0;
-    }
 }
