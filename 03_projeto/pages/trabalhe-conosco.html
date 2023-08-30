@@ -28,17 +28,39 @@
 
     <main>
         <h1>Trabalhe conosco</h1>
-        <form action="/cadastro" method="post">
+        <form action="" method="get">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
             <br>
-            <label for="email_cadastro">E-mail</label>
-            <input type="email" id="email_cadastro" name="email_cadastro" placeholder="exemplo@exemplo.com" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="usuario@dominio.com" required>
             <br>
-            <label for="senha_cadastro">Senha:</label>
-            <input type="password" id="senha_cadastro" name="senha_cadastro" required>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
             <br>
-            <input type="submit" value="Cadastrar">
+            <label for="telefone">Telefone:</label>
+            <input type="tel">
+            <section>
+                <p>Nacionalidade:</p>
+                <input type="radio" name="nacionalidade" id="brasileiro" value="brasileiro" checked>
+                <label for="brasileiro">Brasileiro(a)</label>
+                <input type="radio" name="nacionalidade" id="estrangeiro" value="estrangeiro">
+                <label for="estrangeiro">Estrangeiro(a)</label>
+            </section>
+            <section>
+                <p>Meio de Transporte</p>
+                <input type="checkbox" name="meio-transporte" id="ape" value="ape">
+                <label for="pe">A pé</label>
+                <input type="checkbox" name="meio-transporte" id="bicicleta" value="bicicleta">
+                <label for="bicicleta">Bicicleta</label>
+                <input type="checkbox" name="meio-transporte" id="carro" value="carro">
+                <label for="carro">Carro</label>
+                <input type="checkbox" name="meio-transporte" id="moto" value="moto">
+                <label for="moto">Moto</label>
+                <input type="checkbox" name="meio-transporte" id="onibus" value="onibus">
+                <label for="onibus">Ônibus</label>
+            </section>
+            <button type="submit">Enviar</button>
         </form>
     </main>
     
