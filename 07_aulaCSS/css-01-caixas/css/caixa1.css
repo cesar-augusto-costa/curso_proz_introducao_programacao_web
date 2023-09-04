@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+    background-color: #a2a2ca;
+}
+
+div {
+    background-color: rgb(211, 211, 211);
+    margin: 40px;
+    padding: 20px;
+    border: solid black 8px;
+}
+
+p {
+    background-color: hsl(140, 82%, 43%);
+}
